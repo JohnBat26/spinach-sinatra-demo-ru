@@ -1,10 +1,13 @@
-Feature: Application test
+# language: ru
+# encoding: utf-8
 
-  Scenario: Hello world
-    Given I am on the front page
-    Then I should see a salutation
+Функция: Application test
 
-  Scenario: Goodbye
-    Given I am on the front page
-    When I click on the first link
-    Then I should see goodbye
+  Сценарий: Hello world
+    Дано I am on the front page
+    Тогда I should see a salutation
+
+  Сценарий: Goodbye
+    Дано I am on the front page
+    Когда I click on the first link
+    Тогда Я должен увидеть Goodbye

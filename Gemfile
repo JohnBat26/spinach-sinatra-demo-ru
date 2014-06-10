@@ -5,5 +5,6 @@ gem 'rake'
 
 group :test do
   gem 'capybara'
-  gem 'spinach'
+  gem 'spinach', '0.8.9'
+  gem 'spinach-console-reporter'
 end
